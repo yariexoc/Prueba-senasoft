@@ -1,0 +1,120 @@
+@import
+url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+*{
+  margin: 0px;
+  padding: 0px;  
+
+}
+.video-responsive{
+    position: relative;
+}
+.video-responsive video{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+.video-responsive div img{
+    width: 40px;
+    height: 42px;
+    float: left;
+}
+.video-responsive div{
+    position: relative;
+    background: transparent;
+    width: 195px;
+    height: 46px;
+    bottom: 745px;
+    left: 85px;
+}
+.video-responsive div h1{
+    color: white;
+    font-family: 'Titillium Web',sans-serif;
+    position: relative;
+    left: 10px;
+    top: 9px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+header section{
+    background-color: #ff000000;
+    width: 455px;
+    position: relative;
+    bottom: 788px;
+    left: 880px;
+}
+        
+header section ul{
+    text-align: center;
+    padding: 10px;
+}
+header section ul li{
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    margin: 8.5px;
+    font-size: 18px;
+    color: white;
+}
+header section ul li a{
+   text-decoration: none;
+   color: white;
+   font-family: Titillium Web;
+   font-size: 16px;
+   font-weight: 550;
+}
+header section ul li:hover a{
+   color: rgb(0, 140, 255);
+   transition-duration: 1s;
+}
+.active a{
+   color: rgb(0, 140, 255);
+}
+header article{
+   position: absolute;
+   top:0px;
+   left: 500px;
+   top: 200px;
+   background: rgb white;
+
+}
+header article h1{
+   text-align: center;
+   margin-top: 30px;
+   font-size: 45px;
+   font-family: 'Titillium Web',sans-serif;
+   color: rgb(227, 242, 245);
+}
+header article h3{
+   text-align: center;
+   margin-top: 40px;
+   font-size: 25px;
+   font-family: 'Titillium Web',sans-serif;
+   color: rgb(227, 242, 245);
+
+}
+header article h4{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Titillium Web',sans-serif;
+  color: rgb(227, 242, 245);
+    
+}
+.post{
+  width: 100px;
+  height: 300%;
+  background:white;
+  background-size: cover;
+  text-align: center;
+
+}
+.post>li>img {
+  width: 200px;
+  height: 80px;
+  
+  }
+  
+  
+        
